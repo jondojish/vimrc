@@ -28,30 +28,6 @@ require("lazy").setup({
 			priority = 1000, -- Very high priority is required, luarocks.nvim should run as the first plugin in your config.
 			config = true,
 		},
-		-- { 
-		-- 	'nvim-telescope/telescope.nvim', 
-		-- 	tag = '0.1.8', 
-		-- 	dependencies = { 'nvim-lua/plenary.nvim' } 
-		-- },
-		--
-		--   { 'navarasu/onedark.nvim' },
-		--
-		--   { 
-		--    'nvim-treesitter/nvim-treesitter', 
-		--    run = ':TSUpdate' 
-		--   },
-		--
-		--   { 'nvim-lua/plenary.nvim' },
-		--
-		--   { 
-		--    "ThePrimeagen/harpoon", 
-		--    branch = "harpoon2", 
-		--    dependencies = { 'nvim-lua/plenary.nvim' } 
-		--   },
-		--
-		--   { 'mbbill/undotree' },
-		--
-		--   { 'tpope/vim-fugitive' },
   },
 
   -- Configure any other settings here. See the documentation for more details.
