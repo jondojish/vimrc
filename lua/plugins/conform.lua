@@ -9,9 +9,19 @@ return {
 				-- You can customize some of the format options for the filetype (:help conform.format)
 				rust = { "rustfmt", lsp_format = "fallback" },
 				-- Conform will run the first available formatter
+				typescript = { "prettierd", "prettier", stop_after_first = true },
+				typescriptreact = { "prettierd", "prettier", stop_after_first = true },
 				javascript = { "prettierd", "prettier", stop_after_first = true },
-
+				javascriptreact = { "prettierd", "prettier", stop_after_first = true },
+				json = { "prettierd", "prettier", stop_after_first = true },
+				html = { "prettierd", "prettier", stop_after_first = true },
+				css = { "prettierd", "prettier", stop_after_first = true },
+				markdown = { "prettier" },
+				yaml = { "prettier" },
+				bash = { "shfmt" },
 				java = { "google-java-format" },
+				c = { "clang-format" },
+				cpp = { "clang-format" },
 			},
 		})
 		-- format on save
