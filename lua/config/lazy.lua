@@ -1,5 +1,4 @@
 vim.cmd [[packadd lazy.nvim]]
-local lazy = require('lazy')
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
