@@ -23,7 +23,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn ="yes"
+vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
@@ -31,3 +31,11 @@ vim.opt.updatetime = 50
 vim.opt.colorcolumn = ""
 
 vim.o.cmdheight = 1
+
+-- handle line wrapping
+vim.o.number = true
+vim.o.textwidth = 0
+vim.o.wrapmargin = 0
+vim.o.wrap = true
+vim.o.linebreak = true
+vim.o.breakindent = true
