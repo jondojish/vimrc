@@ -8,9 +8,7 @@ return {
 		local builtin = require("telescope.builtin")
 		vim.keymap.set("n", "<leader>pf", builtin.find_files, {})
 		vim.keymap.set("n", "<leader>pg", builtin.git_files, {})
-		vim.keymap.set("n", "<leader>ps", function()
-			builtin.live_grep()
-		end)
+		vim.keymap.set("n", "<leader>ps", builtin.live_grep, {})
 		-- Slightly advanced example of overriding default behavior and theme
 		vim.keymap.set("n", "<leader>/", function()
 			-- You can pass additional configuration to Telescope to change the theme, layout, etc.
