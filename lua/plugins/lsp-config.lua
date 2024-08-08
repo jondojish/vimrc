@@ -236,8 +236,8 @@ return {
 
 			local formatters = {
 				"prettierd",
-				"black",
-				"clang_format",
+				-- "black",
+				-- "clang_format",
 				"shfmt",
 				"google-java-format",
 			}
